@@ -113,17 +113,17 @@ function App() {
     <>
       <PopupContext.Provider
         value={{
-          setPopup,
+          articles,
           popupLogin,
           popupRegister,
-          articles,
-          setArticles,
+          searchKeyword,
           isLoading,
-          setIsLoading,
           hasSearched,
+          setArticles,
+          setIsLoading,
           setHasSearched,
           setSearchKeyword,
-          searchKeyword,
+          setPopup,
         }}
       >
         <AuthContext.Provider
